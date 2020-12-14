@@ -35,7 +35,7 @@ button {
   border-style: none;
 }
 .section-header {
-  background-image: url(/assets/images/front-page-header.jpg);
+  background-image: url(./assets/images/front-page-header.jpg);
   background-size: cover;
   background-attachment: fixed;
   min-height: 110vh;
@@ -231,7 +231,7 @@ section.container > header p {
   color: #ccc;
 }
 .projects > header {
-  background-image: url(/assets/images/pattern.png);
+  background-image: url(./assets/images/pattern.png);
   background-repeat: repeat;
 }
 
@@ -255,7 +255,7 @@ section.container > header p {
 }
 .testimonials {
   color: #fafafa;
-  background-image: url(/assets/images/main-page/testiomnials-background.jpg);
+  background-image: url(./assets/images/main-page/testiomnials-background.jpg);
   padding-bottom: 1rem;
 }
 .testimonials .slider-testimonial {
@@ -394,7 +394,7 @@ section.container > header p {
   color: #222F36;
 }
 .scores {
-  background: url(/assets/images/main-page/front-page-counter.jpg);
+  background: url(./assets/images/main-page/front-page-counter.jpg);
   background-attachment: fixed;
   background-position: bottom;
 }
@@ -414,7 +414,7 @@ section.container > header p {
 }
 
 .team {
-  background: url(/assets/images/pattern.png);
+  background: url(./assets/images/pattern.png);
 }
 .team header {
 }

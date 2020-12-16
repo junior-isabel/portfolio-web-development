@@ -208,7 +208,7 @@ section.container > header p {
   width: 100%;
   height: 100%;
 }
-.about .progress-bar .dialog::before {
+.dialog::before {
   content: '';
   border: 5px solid;
   position: absolute;
@@ -217,10 +217,10 @@ section.container > header p {
   transform: translateX(-50%);
   border-color: orange transparent transparent transparent;
 }
-.about .progress-count.blueviolet .dialog::before{
+.blueviolet .dialog::before{
   border-color: var(--color-blueviolet) transparent transparent transparent;
 }
-.about .progress-count.green .dialog::before{
+.green .dialog::before{
   border-color: var(--color-green) transparent transparent transparent;
 }
 
@@ -416,8 +416,6 @@ section.container > header p {
 .team {
   background: url("../images/pattern.png");
 }
-.team header {
-}
 .team header h2 {
   margin-bottom: 10px;
 }
@@ -428,4 +426,53 @@ footer p {
   height: 50px;
   color: #fafafa;
   background: #242320;
+}
+.team .team-member {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.team .team-member .member {
+  display: flex;
+  flex: 23%;
+  max-width: 23%;
+}
+.team-member .member .thumb {
+  margin-right: 20px;
+}
+.team-member .member-function {
+  font-size: #ccc;
+  margin: 1rem 0;
+}
+.team-member .member .thumb img {
+  border-radius: 100px;
+  border: 1px solid #f00;
+}
+.team-member .member-description {
+  margin: 1.2rem 0;
+  width: 100%;
+  max-width: 200px;
+}
+.team-member .midia-social .links {
+  display: flex;
+  margin: 1rem 0;
+  width: 120px;
+  justify-content: space-between;
+}
+.team-member .links li {
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-member .links li:hover {
+  background-color: #222F36;
+  color: #fafafa;
 }
